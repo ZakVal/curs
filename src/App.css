@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  }
+  body {
+  background-color: ghostwhite;
+  }
+  h1 {
+  font-style: italic;
+  }
+  
+  .header {
+  margin-top: 0px;
+  height: 128px;
+  background-color: dimgrey;
+  color:black;
+  }
+  .main-wrapper{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+  
+  .items {
+  padding-top: 20px;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  font-size: Large;
+  font-style: italic;
+    border-style: groove;
+  border-radius: 20px;
+  box-sizing: border-box;
+  }
+  .searchFild{
+
+  width: 300px;
+  height: 30px;
+  border-radius: 40px;
+  }
+   .search-feild{
+
+     border-radius: 40px;
+     margin-top: 44px;
+     width: 300px;
+     height:26px;
+   }
+
